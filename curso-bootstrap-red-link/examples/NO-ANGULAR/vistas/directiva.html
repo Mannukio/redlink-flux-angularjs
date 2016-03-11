@@ -1,0 +1,18 @@
+        <div class="jumbotron">
+        <h1>
+          Bienvenidos a RED LINKK
+          <button type="button" class="btn btn-primary btn-lg" ng-click="sumarMensaje();" >
+                  Agregar mensajes
+          </button>
+          <button type="button" class="btn btn-primary btn-lg" ng-click="resetMensaje();">
+                  Resetear mensajes
+          </button>
+        </h1>
+        <p>Este es su portal de autogestión de sus cuentas. Seleccione las acciones para aprender más</p>
+
+        <span class="label label-info" id="lblMensajes" ng-if="cantMensajes>0">
+          Ud tiene <span class="badge">{{cantMensajes}}</span> mensajes sin leer
+        </span>
+
+
+        </div>

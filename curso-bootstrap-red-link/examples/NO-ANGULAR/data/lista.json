@@ -1,0 +1,22 @@
+{
+	"datos":[
+		{"titulo":"aaa",
+		"fecha":1312321312321,
+		"importe":15,
+		"vencida":true
+		},{"titulo":"aaa",
+		"fecha":1312321312321,
+		"importe":45,
+		"vencida":false
+		},{"titulo":"aaa",
+		"fecha":1312321312321,
+		"importe":250,
+		"vencida":true
+		},{"titulo":"aaa",
+		"fecha":1312321312321,
+		"importe":99.99,
+		"vencida":false
+		}
+	],
+	"saldoSEUO":"12341"
+}

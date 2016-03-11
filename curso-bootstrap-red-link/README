@@ -1,0 +1,50 @@
+Ejemplo paso a paso de curso básico de bootstrap.
+
+Para acceder a cada paso se debe tener instalado git. El curso está estructurado para empezar de una página mínimamente
+compuesta de los links necesarios para incluir las librerias completas de bootstrap, cass y js.
+
+El ejemplo se contruye a partir del ejemplo "starter template" de la documentación oficial de bootstrap
+
+Para iniciar con el template vacío ejecutar en la raíz de este proyecto el siguiente comando de consola
+
+git checkout paso0
+
+A medida que se avanza en el curso, reemplazar en el comando anterior el valor "paso0" por el valor correspondiente
+
+El curso está estructurado de la siguiente manera:
+
+paso0: template o esqueleto inicial vacío. Esta página tiene un contenedor fijo sobre el que se va a construir el ejemplo
+
+paso1: Agregar barra de navegación principal
+
+paso2: se agrega una grilla típica de bootstrap con ejemplos visuales del comportamiento de las columnas según la pantalla
+
+paso3: se agrega un ejemplo de grilla con columnas intermedias vacías
+
+paso4: ejemplo agregado a los anteriores que demuestra la visualización selectiva según el tamaño de pantalla
+
+paso5: se quita la grilla ilustrativa de los ejemplos anteriores para iniciar una maqueta de una aplicación de tipo home banking. Se agrega un brearcrumb que simula una navegación jerárquica del sitio
+
+paso6: al template anterior se le agrega una barra de navegación interna que se muestra selectivamente en forma de pestañas superiores si el tamaño de mantalla es grande, y de navegación lateral si es pequeño
+
+paso7: a las pestañas de tabulado se le incopora el panel asociado a la navegación de cada una
+
+paso8: se agregan paneles visuales a cada ítem de navegación con sus respectivos encabezados, footers, y estilos propios para diferenciarlos
+
+paso9: se usan tablas html tradicionales, en las cuales se muestran datos ficticios de movimientos de cuentas, con el adicional de estilos propios de boostrap que le agregan comportamiento
+
+paso10: al ejemplo de las tablas se le suma una barra de navegación para maquetar paginado
+
+paso11: a la estructura actual se le incorpora un botón que al seleccionarlo abre una ventana modal para iniciar sesión
+
+paso12: para demostrar el comportamiento de los formularios, se maqueta una pantalla típica de login pero con los estilos asociados para optimizar el uso de pantalla según viewport
+
+paso13: se añaden componentes visuales varios, como íconos, barras de progreso, mensajes desplecados en pantalla y ocultables
+
+paso14: se modifica el mensaje principal de la pantalla, para mostrar un mensaje acorde, junto con funcionalidades típicas de uso del ejemplo, como botones de acciones más frecuentes, ensajes sin leer, etc
+
+paso15: se incopora comportamiento custoizado por JS para enriquecer la navegación con ejemplos típicos que el framework no provee
+
+paso16: se asocia comportamiento a eventos propios definidos por el framerok, por ejemplo, mostrar el contenido de una pestaña
+
+paso17: se customiza el framework y se reemplaza la versión de distribución por una que se ajuste a la preferencia personal

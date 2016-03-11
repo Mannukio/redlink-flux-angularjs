@@ -1,0 +1,37 @@
+    <div class="row">
+{{pepe}}
+
+          <div class="col-xs-8 col-sm-9 col-md-12"></div>
+                  <!-- Tab panes -->
+
+                          <table class="table table-hover table-striped">
+                            <thead>
+                              <tr>
+                                <th>Fecha</th>
+                                <th>Concepto</th>
+                                <th>Importe</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr ng-repeat="item in datos.datos track by $index">
+                                <td>
+                                  {{item.fecha | date : 'yyyy/MM/dd'}}
+                                  <span ng-if="item.vencida" ng-click="reseteoVencimiento(item);" class="glyphicon glyphicon-align-right glyphicon-exclamation-sign" aria-hidden="true"  data-toggle="tooltip" data-placement="left" title="Cancelar vencimiento"></span>
+
+                                </td>
+                                <td>{{item.titulo}}</td>
+                                <td>{{item.importe}}</td>
+                              </tr>
+
+                            </tbody>
+                            <tfoot>
+                              <tr>
+                                <td colspan="2">Saldo S.E.U.O.</td>
+                                <td>{{datos.saldoSEUO}}</td>
+                              </tr>
+                            </tfoot>
+
+                          </table>
+
+            </div>
+        </div>
